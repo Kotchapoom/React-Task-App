@@ -1,0 +1,43 @@
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.form-control {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr .1fr;
+    grid-gap: 1rem;
+}
+
+.text-input {
+    max-width: 100%;
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #eaeaee;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.text-input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    background-color: rgb(7, 156, 39);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(7, 156, 39);
+    color: white;
+    opacity: 1;
+}

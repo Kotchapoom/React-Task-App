@@ -1,0 +1,56 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0.25rem 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.title {
+    color: black;
+}
+
+.btn-container {
+
+    margin-top: 5px;
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 7px;
+    margin-right: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: red;
+    color: white;
+    opacity: 1;
+
+}
+
+.btn-edit {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 7px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    opacity: 1;
+
+}
