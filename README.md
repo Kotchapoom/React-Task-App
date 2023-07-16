@@ -12,5 +12,6 @@ npm start
 ```
 
 โปรเจกต์นี้มีการเรียกใช้ React Hook โดยจะใช้ useState เพื่อมาเก็บข้อมูลและเปลี่ยนแปลงข้อมูล เรียกใช้ด้วยคำสั่ง
-
- `import {useState} from 'react'`
+```
+import {useState} from 'react'
+```
